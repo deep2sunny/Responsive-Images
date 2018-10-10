@@ -38,21 +38,27 @@ img{
 section{
   margin-left: 20px;/*adding margin to sections from left*/
   margin-top: 20px;/*adding margin to the sections from top*/
+  float: left;/*items are floated to the left */
 }
 
 /*targeting the main tag*/
+
 main{
-  display: flex;/*adding flex to main tag */
-  flex-wrap: wrap;/*wraping the flex so that it wraps its content according to the situation */
+  width: 100%; /*items take up the 100% width */
 }
 
-/*adding media query*/
-@media only screen and (min-width : 768px) and (max-width : 1024px)
-{
 
+/*adding media query*/
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+   main{
+     width: 75%;
+   }
 }
 /*adding media query*/
-@media only screen and (min-width : 320px) and (max-width : 480px)
+@media only screen and (max-width: 600px)
 {
-
+  main{
+      width: 50%;
+  }
 }
