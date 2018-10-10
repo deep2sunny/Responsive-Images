@@ -1,0 +1,52 @@
+/*adding universal tag*/
+*{
+  font-family: 'Montserrat', sans-serif; /*specifying font to text in html tag*/
+}
+/*targeting body tag to add stylesheet*/
+body{
+  background-color: #eee;/**/
+}
+/*targeting head tag to add stylesheet*/
+h1{
+  text-align: center;/*aligning text to center*/
+  text-decoration: underline;/*decorating text in h1 tag*/
+}
+/*targeting paragraph tag to add stylesheet*/
+p{
+  width: 250px;/*bounding width of your paragraph*/
+  padding: 20px;/*specifying padding to your paaragraph*/
+  text-align: justify;/*aligning the text in paragraph*/
+  margin-top: -5px;/* adding top margin to the paragraph */
+}
+/*targetin div tags with class selector*/
+.container{
+  width: 300px;/* specifying width to the division tag*/
+  height: 445px;/*specifying heightto the division tag*/
+  border: 2px solid black;/* specifying border thickness, type,color*/
+}
+/*targeting image tag*/
+img{
+  width:100%;/*specifying the width of image*/
+}
+/*targeting the sections tag*/
+section{
+  margin-left: 20px;/*adding margin to sections from left*/
+  margin-top: 20px;/*adding margin to the sections from top*/
+}
+
+/*targeting the main tag*/
+main{
+  display: flex;/*adding flex to main tag */
+  flex-wrap: wrap;/*wraping the flex so that it wraps its content according to the situation */
+}
+
+/*adding media query*/
+@media only screen and (min-width : 768px) and (max-width : 1024px)
+{
+
+}
+/*adding media query*/
+@media only screen and (min-width : 320px) and (max-width : 480px)
+{
+
+}
